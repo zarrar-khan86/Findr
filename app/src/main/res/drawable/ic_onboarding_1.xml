@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="280dp"
+    android:viewportWidth="280"
+    android:viewportHeight="280">
+
+    <!-- Background Circle -->
+    <path
+        android:pathData="M140,280 A140,140 0 1,1 140,0 A140,140 0 1,1 140,280 Z"
+        android:fillColor="#D6F0EE" />
+
+    <!-- Person's Head -->
+    <path
+        android:pathData="M140,100 A18,18 0 1,1 140,136 A18,18 0 1,1 140,100 Z"
+        android:fillColor="#F4A460" />
+
+    <!-- Person's Hair -->
+    <path
+        android:pathData="M122,106 L158,106 L158,100 Q158,92 150,92 L130,92 Q122,92 122,100 L122,106 Z"
+        android:fillColor="#8B4513" />
+
+    <!-- Person's Body (Teal Shirt) -->
+    <path
+        android:pathData="M140,136 L120,145 L120,180 L160,180 L160,145 L140,136 Z"
+        android:fillColor="#0097A7" />
+
+    <!-- Person's Arm (Raised) -->
+    <path
+        android:pathData="M120,145 Q100,140 95,155 Q90,165 105,175 L115,165 L120,160 Z"
+        android:fillColor="#0097A7" />
+
+    <!-- Person's Hand -->
+    <path
+        android:pathData="M95,155 A10,10 0 1,1 95,175 A10,10 0 1,1 95,155 Z"
+        android:fillColor="#F4A460" />
+
+    <!-- Question Mark 1 -->
+    <path
+        android:pathData="M90,110 Q90,100 100,100 Q110,100 110,110 Q110,115 105,118 L105,125 M105,130 L105,135"
+        android:strokeColor="#A0A0A0"
+        android:strokeWidth="3"
+        android:fillColor="@android:color/transparent"
+        android:strokeLineCap="round" />
+
+    <!-- Question Mark 2 -->
+    <path
+        android:pathData="M150,110 Q150,100 160,100 Q170,100 170,110 Q170,115 165,118 L165,125 M165,130 L165,135"
+        android:strokeColor="#A0A0A0"
+        android:strokeWidth="3"
+        android:fillColor="@android:color/transparent"
+        android:strokeLineCap="round" />
+
+    <!-- Laptop/Computer -->
+    <path
+        android:pathData="M95,185 L95,200 L125,200 L125,185 Z"
+        android:fillColor="#009688" />
+    <path
+        android:pathData="M85,200 L135,200 L138,210 L82,210 Z"
+        android:fillColor="#00796B" />
+
+    <!-- Phone -->
+    <path
+        android:pathData="M135,200 L145,200 L145,220 L135,220 Z"
+        android:fillColor="#0097A7"
+        android:strokeColor="#00838F"
+        android:strokeWidth="2" />
+    <path
+        android:pathData="M137,203 L143,203 L143,215 L137,215 Z"
+        android:fillColor="#B2EBF2" />
+
+    <!-- Key -->
+    <path
+        android:pathData="M155,190 A8,8 0 1,1 155,206 A8,8 0 1,1 155,190 Z"
+        android:strokeColor="#FFB300"
+        android:strokeWidth="2.5"
+        android:fillColor="@android:color/transparent" />
+    <path
+        android:pathData="M163,198 L175,198 L175,202 L172,202 L172,205 L170,205 L170,202 L167,202 L167,205 L165,205 L165,202 L163,202 Z"
+        android:fillColor="#FFB300" />
+
+</vector>
+

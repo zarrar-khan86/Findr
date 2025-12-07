@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="280dp"
+    android:viewportWidth="280"
+    android:viewportHeight="280">
+
+    <!-- Background Circle -->
+    <path
+        android:pathData="M140,280 A140,140 0 1,1 140,0 A140,140 0 1,1 140,280 Z"
+        android:fillColor="#D6F0EE" />
+
+    <!-- Person 1 (Top) - Orange shirt -->
+    <path
+        android:pathData="M140,80 A16,16 0 1,1 140,112 A16,16 0 1,1 140,80 Z"
+        android:fillColor="#F4A460" />
+    <path
+        android:pathData="M140,112 L125,120 L125,150 L155,150 L155,120 L140,112 Z"
+        android:fillColor="#FF9800" />
+
+    <!-- Person 2 (Left) - Blue shirt -->
+    <path
+        android:pathData="M85,140 A14,14 0 1,1 85,168 A14,14 0 1,1 85,140 Z"
+        android:fillColor="#8B6F47" />
+    <path
+        android:pathData="M85,168 L72,175 L72,200 L98,200 L98,175 L85,168 Z"
+        android:fillColor="#0097A7" />
+
+    <!-- Person 3 (Right) - Teal shirt -->
+    <path
+        android:pathData="M195,140 A14,14 0 1,1 195,168 A14,14 0 1,1 195,140 Z"
+        android:fillColor="#8B6F47" />
+    <path
+        android:pathData="M195,168 L182,175 L182,200 L208,200 L208,175 L195,168 Z"
+        android:fillColor="#00897B" />
+
+    <!-- Location Pin (Red with white center) -->
+    <path
+        android:pathData="M140,65 Q127,65 127,78 Q127,91 140,110 Q153,91 153,78 Q153,65 140,65 Z"
+        android:fillColor="#E53935" />
+    <path
+        android:pathData="M140,72 A6,6 0 1,1 140,84 A6,6 0 1,1 140,72 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Connection lines between people -->
+    <path
+        android:pathData="M140,150 L85,175"
+        android:strokeColor="#B0BEC5"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M140,150 L195,175"
+        android:strokeColor="#B0BEC5"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+
+</vector>
+

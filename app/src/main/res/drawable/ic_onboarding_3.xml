@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="280dp"
+    android:viewportWidth="280"
+    android:viewportHeight="280">
+
+    <!-- Background Circle (Light Purple) -->
+    <path
+        android:pathData="M140,280 A140,140 0 1,1 140,0 A140,140 0 1,1 140,280 Z"
+        android:fillColor="#E8E0F5" />
+
+    <!-- Phone body (Blue border) -->
+    <path
+        android:pathData="M100,75 L180,75 Q190,75 190,85 L190,215 Q190,225 180,225 L100,225 Q90,225 90,215 L90,85 Q90,75 100,75 Z"
+        android:strokeColor="#2196F3"
+        android:strokeWidth="4"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Phone top bar -->
+    <path
+        android:pathData="M90,95 L190,95"
+        android:strokeColor="#2196F3"
+        android:strokeWidth="3" />
+
+    <!-- Orange notification icon (top) -->
+    <path
+        android:pathData="M120,110 L135,110 L135,120 L137,120 L128,128 L119,120 L121,120 L121,110 Z"
+        android:fillColor="#FF9800" />
+    <path
+        android:pathData="M133,108 A3,3 0 1,1 133,114 A3,3 0 1,1 133,108 Z"
+        android:fillColor="#E53935" />
+
+    <!-- Blue notification card -->
+    <path
+        android:pathData="M105,135 L175,135 L175,150 L105,150 Z"
+        android:fillColor="#E3F2FD" />
+    <path
+        android:pathData="M110,139 L140,139 L140,142 L110,142 Z"
+        android:fillColor="#2196F3" />
+    <path
+        android:pathData="M110,144 L165,144 L165,147 L110,147 Z"
+        android:fillColor="#90CAF9" />
+
+    <!-- Green item icon -->
+    <path
+        android:pathData="M115,165 L130,165 L130,185 L115,185 Z"
+        android:fillColor="#4CAF50"
+        android:strokeColor="#2E7D32"
+        android:strokeWidth="2" />
+    <path
+        android:pathData="M118,168 L127,168 L127,175 L118,175 Z"
+        android:fillColor="#81C784" />
+
+    <!-- Text lines next to green item -->
+    <path
+        android:pathData="M135,168 L165,168 L165,171 L135,171 Z"
+        android:fillColor="#BDBDBD" />
+    <path
+        android:pathData="M135,175 L155,175 L155,178 L135,178 Z"
+        android:fillColor="#E0E0E0" />
+
+    <!-- Happy emoji at bottom -->
+    <path
+        android:pathData="M135,205 A10,10 0 1,1 135,225 A10,10 0 1,1 135,205 Z"
+        android:fillColor="#FFD54F" />
+    <path
+        android:pathData="M131,212 A1.5,1.5 0 1,1 131,215 A1.5,1.5 0 1,1 131,212 Z"
+        android:fillColor="#333333" />
+    <path
+        android:pathData="M139,212 A1.5,1.5 0 1,1 139,215 A1.5,1.5 0 1,1 139,212 Z"
+        android:fillColor="#333333" />
+    <path
+        android:pathData="M130,218 Q135,222 140,218"
+        android:strokeColor="#333333"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"
+        android:strokeLineCap="round" />
+
+    <!-- Decorative stars/sparkles around phone -->
+    <path
+        android:pathData="M85,145 L87,150 L92,152 L87,154 L85,159 L83,154 L78,152 L83,150 Z"
+        android:fillColor="#FFB74D" />
+    <path
+        android:pathData="M195,170 L197,175 L202,177 L197,179 L195,184 L193,179 L188,177 L193,175 Z"
+        android:fillColor="#FFB74D" />
+
+</vector>
+
